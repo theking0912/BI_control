@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="BIETLUSER">
+      <ObjectId>105</ObjectId>
+      <IntrospectionTimestamp>2017-04-13.15:23:23</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-03-23.17:08:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.11:11:18</ModifiedTimestamp>
+      <CommentsHash>310620247932102</CommentsHash>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="ORACLE_OCM">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSNMP">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APPQOSSYS">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="GSMCATUSER">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="WMSYS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OJVMSYS">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="CTXSYS">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ORDSYS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORDDATA">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDPLUGINS">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="MDSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OLAPSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="LBACSYS">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="FLOWS_FILES">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="APEX_040200">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="PDBADMIN">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="PORTAL">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="PRD_BI_DATA">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PRD_BI_REPORT">
+      <ObjectId>108</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="PRD_METADATA">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="PRD_BI_CONFIG">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="45" parent="2" name="SEQ_BI_BU_PACKAGE">
+      <ObjectId>92205</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:36:41</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:36:41</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="46" parent="2" name="SEQ_BI_ETL_TABLE">
+      <ObjectId>92203</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:35:59</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:35:59</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="47" parent="2" name="SEQ_BI_INIT_EXPORT">
+      <ObjectId>92685</ObjectId>
+      <CreatedTimestamp>2017-04-07.16:56:31</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-07.16:56:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="48" parent="2" name="SEQ_BI_JOB">
+      <ObjectId>92204</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:36:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:36:07</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="49" parent="2" name="BI_BU_PACKAGE">
+      <ObjectId>92202</ObjectId>
+      <Comment>包配置表</Comment>
+      <CreatedTimestamp>2017-03-23.17:08:18</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:08:18</ModifiedTimestamp>
+    </table>
+    <table id="50" parent="2" name="BI_ETL_TABLE">
+      <ObjectId>92197</ObjectId>
+      <Comment>ETL(Extract,Transform,Load)配置表</Comment>
+      <CreatedTimestamp>2017-03-23.17:08:13</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-29.11:04:11</ModifiedTimestamp>
+    </table>
+    <table id="51" parent="2" name="BI_INIT_EXPORT">
+      <ObjectId>92783</ObjectId>
+      <Comment>初始化导入配置表</Comment>
+      <CreatedTimestamp>2017-04-07.18:04:54</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-12.14:50:53</ModifiedTimestamp>
+    </table>
+    <table id="52" parent="2" name="BI_JOB">
+      <ObjectId>92200</ObjectId>
+      <Comment>JOB配置表</Comment>
+      <CreatedTimestamp>2017-03-23.17:08:16</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:44:18</ModifiedTimestamp>
+    </table>
+    <table id="53" parent="2" name="BI_JOB_STEP">
+      <ObjectId>92207</ObjectId>
+      <Comment>JOB调用的对象</Comment>
+      <CreatedTimestamp>2017-03-23.17:38:07</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:38:07</ModifiedTimestamp>
+    </table>
+    <routine id="54" parent="2" name="ASD">
+      <ObjectId>92529</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-04-05.11:08:55</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-05.14:58:30</ModifiedTimestamp>
+    </routine>
+    <routine id="55" parent="2" name="FUN_SPLITSTR">
+      <ObjectId>92449</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2017-03-31.17:15:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-31.18:03:01</ModifiedTimestamp>
+    </routine>
+    <routine id="56" parent="2" name="FUN_SPLITSTR1">
+      <ObjectId>92450</ObjectId>
+      <RoutineKind>function</RoutineKind>
+      <CreatedTimestamp>2017-03-31.19:31:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-31.22:35:11</ModifiedTimestamp>
+    </routine>
+    <routine id="57" parent="2" name="P_DEL_TW_REPEAT_DATA">
+      <ObjectId>92453</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-03-31.22:10:09</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-13.11:11:18</ModifiedTimestamp>
+    </routine>
+    <routine id="58" parent="2" name="P_DEMO">
+      <ObjectId>92532</ObjectId>
+      <RoutineKind>procedure</RoutineKind>
+      <CreatedTimestamp>2017-04-05.14:50:55</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-05.14:50:55</ModifiedTimestamp>
+    </routine>
+    <column id="59" parent="49" name="PACKAGE_ID">
+      <Position>1</Position>
+      <Comment>包ID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="49" name="PACKAGE_NAME">
+      <Position>2</Position>
+      <Comment>包名称</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="61" parent="49" name="PACKAGE_PARAM_EXPR">
+      <Position>3</Position>
+      <Comment>包参数生成器</Comment>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="62" parent="49" name="PACKAGE_PARAM_VALUE">
+      <Position>4</Position>
+      <Comment>包参数值</Comment>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <trigger id="63" parent="49" name="TR_SEQ_BI_BU_PACKAGE">
+      <ObjectId>92210</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:46:42</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:46:42</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="64" parent="50" name="TABLE_ID">
+      <Position>1</Position>
+      <Comment>表ID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="65" parent="50" name="TABLE_NAME">
+      <Position>2</Position>
+      <Comment>表名称</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="66" parent="50" name="EXT_SYSTEM">
+      <Position>3</Position>
+      <Comment>表来源:1=SAP;2=OMS;</Comment>
+      <DataType>VARCHAR2(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="50" name="EXT_TYPE">
+      <Position>4</Position>
+      <Comment>表抽取方式:1=PROGRAM;2=DBLINK;3=REPLICATION</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="50" name="EXT_PROGRAM">
+      <Position>5</Position>
+      <Comment>抽取程序</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="69" parent="50" name="EXT_DRIVER">
+      <Position>6</Position>
+      <Comment>抽取驱动</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="70" parent="50" name="EXT_CONNECT">
+      <Position>7</Position>
+      <Comment>DB连接串</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="71" parent="50" name="EXT_USER">
+      <Position>8</Position>
+      <Comment>用户</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="72" parent="50" name="EXT_PASSWORD">
+      <Position>9</Position>
+      <Comment>密码</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="73" parent="50" name="EXT_SQL_TEXT">
+      <Position>10</Position>
+      <Comment>抽取SQL</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="74" parent="50" name="EXT_SQL_PARAM_EXPR">
+      <Position>11</Position>
+      <Comment>抽取SQL参数生成器</Comment>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="75" parent="50" name="EXT_SQL_PARAM_VALUE">
+      <Position>12</Position>
+      <Comment>抽取SQL参数值</Comment>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="76" parent="50" name="EXT_DATA_FILE">
+      <Position>13</Position>
+      <Comment>csv文件保存路径</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="77" parent="50" name="LOAD_TABLE_NAME">
+      <Position>14</Position>
+      <Comment>TI层对应的表</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="78" parent="50" name="LOAD_COVERNO_EXPR">
+      <Position>15</Position>
+      <Comment>数据覆盖规则生成器</Comment>
+      <DataType>VARCHAR2(4000)|0</DataType>
+    </column>
+    <column id="79" parent="50" name="LOAD_COVERNO_VALUE">
+      <Position>16</Position>
+      <Comment>数据覆盖规则:1=按唯一索引;2=按生成器;</Comment>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="80" parent="50" name="IS_VALID">
+      <Position>17</Position>
+      <Comment>表是否需要抽取</Comment>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="50" name="RUN_SCHEDULE">
+      <Position>18</Position>
+      <Comment>抽取计划</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <column id="82" parent="50" name="RUN_TODAY">
+      <Position>19</Position>
+      <Comment>今天是否需要抽取:1=是;0=否</Comment>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <column id="83" parent="50" name="RUN_TODAY_DATE">
+      <Position>20</Position>
+      <Comment>今天日期</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="84" parent="50" name="RUN_LASTDATE">
+      <Position>21</Position>
+      <Comment>最后运行日期</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="85" parent="50" name="RUN_STATUS">
+      <Position>22</Position>
+      <Comment>完成状态:1=成功;0=失败;</Comment>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <column id="86" parent="50" name="RUN_LAST_ERROR">
+      <Position>23</Position>
+      <Comment>最后错误信息</Comment>
+      <DataType>CLOB|0</DataType>
+    </column>
+    <column id="87" parent="50" name="EXT_DATA_FILE2">
+      <Position>24</Position>
+      <Comment>csv文件保存路径</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+    </column>
+    <column id="88" parent="50" name="LOAD_COVERNO_TYPE">
+      <Position>25</Position>
+      <Comment>数据覆盖类型:PK=按主键;EXPR=按生成器;COLUMN=按表中字段;FULL=全量覆盖</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+    </column>
+    <trigger id="89" parent="50" name="TR_SEQ_BI_ETL_TABLE">
+      <ObjectId>92208</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:46:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:46:10</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="90" parent="51" name="TABLE_ID">
+      <Position>1</Position>
+      <Comment>表ID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="91" parent="51" name="TABLE_NAME">
+      <Position>2</Position>
+      <Comment>表名</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+    </column>
+    <column id="92" parent="51" name="EXECUTION_TIME">
+      <Position>3</Position>
+      <Comment>执行时间起</Comment>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="93" parent="51" name="EXT_DATA_FILE_INIT">
+      <Position>4</Position>
+      <Comment>csv文件保存路径公式</Comment>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <column id="94" parent="51" name="EXT_DATA_FILE_INIT2">
+      <Position>5</Position>
+      <Comment>csv文件保存实际路径</Comment>
+      <DataType>VARCHAR2(1000)|0</DataType>
+    </column>
+    <column id="95" parent="51" name="INITIALIZATION_RANGE">
+      <Position>6</Position>
+      <Comment>初始化范围</Comment>
+      <DataType>VARCHAR2(100)|0</DataType>
+    </column>
+    <column id="96" parent="51" name="INITIALIZATION_TIMES">
+      <Position>7</Position>
+      <Comment>初始化次数</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0
+</DefaultExpression>
+    </column>
+    <column id="97" parent="51" name="IF_INITIALIZE">
+      <Position>8</Position>
+      <Comment>是否初始化</Comment>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <column id="98" parent="51" name="IF_IMPORT">
+      <Position>9</Position>
+      <Comment>是否导入&#x13;</Comment>
+      <DataType>CHAR(1)|0</DataType>
+    </column>
+    <trigger id="99" parent="51" name="TR_SEQ_BI_INIT_EXPORT">
+      <ObjectId>92782</ObjectId>
+      <CreatedTimestamp>2017-04-07.18:07:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-10.10:07:38</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="100" parent="52" name="JOB_ID">
+      <Position>1</Position>
+      <Comment>作业id</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="101" parent="52" name="JOB_NAME">
+      <Position>2</Position>
+      <Comment>作业名称</Comment>
+      <DataType>VARCHAR2(255)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="52" name="JOB_TYPE">
+      <Position>3</Position>
+      <Comment>作业类型:1=EXPORT;2=IMPORT;3=BU</Comment>
+      <DataType>VARCHAR2(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="52" name="RUN_LAST_DATE">
+      <Position>4</Position>
+      <Comment>最后执行日期</Comment>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="104" parent="52" name="RUN_STATUS">
+      <Position>5</Position>
+      <Comment>是否成功</Comment>
+      <DataType>NUMBER(1)|0</DataType>
+    </column>
+    <trigger id="105" parent="52" name="TR_SEQ_BI_JOB">
+      <ObjectId>92209</ObjectId>
+      <CreatedTimestamp>2017-03-23.17:45:05</CreatedTimestamp>
+      <ModifiedTimestamp>2017-03-23.17:45:05</ModifiedTimestamp>
+      <Events>I</Events>
+      <Turn>before-row</Turn>
+    </trigger>
+    <column id="106" parent="53" name="JOB_ID">
+      <Position>1</Position>
+      <Comment>作业id</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="107" parent="53" name="OBJECT_TYPE">
+      <Position>2</Position>
+      <Comment>引用对象类型:1=表;2=包;</Comment>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="108" parent="53" name="OBJECT_ID">
+      <Position>3</Position>
+      <Comment>引用对象ID</Comment>
+      <DataType>NUMBER(*)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="53" name="OBJECT_NAME">
+      <Position>4</Position>
+      <Comment>引用对象名称</Comment>
+      <DataType>VARCHAR2(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="110" parent="53" name="SORT">
+      <Position>5</Position>
+      <DataType>NUMBER(8,2)|0</DataType>
+    </column>
+    <argument id="111" parent="54" name="A">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="112" parent="54" name="B">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="113" parent="55">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="114" parent="55" name="P_STRING">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="115" parent="55" name="P_DELIMITER">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="116" parent="56">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="117" parent="56" name="P_STRING">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="118" parent="56" name="P_DELIMITER">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="119" parent="58" name="V1">
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+    <argument id="120" parent="58" name="V2">
+      <ArgumentDirection>O</ArgumentDirection>
+      <DataType>VARCHAR2|0</DataType>
+    </argument>
+  </database-model>
+</dataSource>
